@@ -2,6 +2,8 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.Json;
 
+// Changed for git
+
 IConfigurationBuilder configurationBuilder = new ConfigurationBuilder()
     .AddJsonFile("appSettings.json");
 
